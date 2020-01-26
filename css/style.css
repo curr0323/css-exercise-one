@@ -1,14 +1,17 @@
-body
+
+/*start of style.css*/
+/*body tag specifies font size for content*/
+body {
   font-size: 14px;
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
@@ -16,21 +19,35 @@ section {
 }
 
 h1 {
-  font-family sans-serif;
+  /* specify font and size for 1st heading*/
+  font-family: sans-serif;
   font-size: 2em;
 }
 
 .example, h3 {
+  /*specify padding on top and text alignment for second heading
+    and objects of example class*/
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
 h3 {
+  /*specify font for second heading*/
   font-size: 1.3em;
 }
 
 .element {
+  /*specifies information for objects of element class*/
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+overwrite.element {
+  /*Overwrite the background color of last three elements*/
+  background-color: blue;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
